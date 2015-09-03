@@ -11,12 +11,38 @@
 	</portlet>
 	<portlet>
 		<portlet-name>slow-portlet-ajax</portlet-name>
+		
 		<icon>/icon.png</icon>
+		<portlet-data-handler-class></portlet-data-handler-class>
 		<instanceable>true</instanceable>
+		
 		<render-weight>0</render-weight>
+		
 		<header-portlet-css>/css/main.css</header-portlet-css>
+		
 		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		
 	</portlet>	
+	<portlet>
+		<portlet-name>cache-slow</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>cache-slow-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>configured-cache-portlet</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			configured-cache-portlet-portlet
+		</css-class-wrapper>
+	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
 		<role-link>Administrator</role-link>

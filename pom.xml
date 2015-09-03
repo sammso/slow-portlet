@@ -7,6 +7,15 @@
 	<packaging>war</packaging>
 	<name>slow-portlet Portlet</name>
 	<version>6.2.10.0-SNAPSHOT</version>
+	<properties>
+		<liferay.version>6.2.3</liferay.version>
+		<liferay.maven.plugin.version>6.2.2</liferay.maven.plugin.version>
+				<liferay.home>../../bundles</liferay.home>
+				<liferay.auto.deploy.dir>${liferay.home}/deploy</liferay.auto.deploy.dir>
+				<liferay.app.server.deploy.dir>${liferay.home}/tomcat-7.0.42/webapps</liferay.app.server.deploy.dir>
+				<liferay.app.server.lib.global.dir>${liferay.home}/tomcat-7.0.42/lib/ext</liferay.app.server.lib.global.dir>
+				<liferay.app.server.portal.dir>${liferay.home}/tomcat-7.0.42/webapps/ROOT</liferay.app.server.portal.dir>
+	</properties>	
 	<build>
 		<plugins>
 			<plugin>

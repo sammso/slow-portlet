@@ -5,5 +5,7 @@
 	<category name="category.testing">
 		<portlet id="slow-portlet" />
 		<portlet id="slow-portlet-ajax" />
+        <portlet id="configured-cache-portlet"></portlet>
+        <portlet id="cache-slow"></portlet>
 	</category>
 </display>
